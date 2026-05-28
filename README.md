@@ -1,59 +1,63 @@
-# Tarea2
+# Formulario Interactivo - Angular básico
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.11.
+Proyecto realizado para el Módulo 1 - Unidad 2, centrado en el uso de directivas y formularios reactivos en Angular.
 
-## Development server
+La aplicación incluye un componente `registro` con un formulario de registro validado, mensajes de error dinámicos, estilos condicionales y confirmación visual al enviar los datos.
 
-To start a local development server, run:
+## Objetivo
+
+Aplicar formularios reactivos con `FormBuilder`, validaciones básicas y directivas estándar para construir una experiencia de usuario simple e interactiva.
+
+## Instalación
+
+1. Clonar el repositorio.
+2. Instalar dependencias:
+
+```bash
+npm install
+```
+
+## Ejecución
+
+Levantar el servidor de desarrollo con:
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Luego abrir la aplicación en:
 
 ```bash
-ng generate component component-name
+http://localhost:4200/
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## Ejemplo de uso
+
+Completar el formulario con un nombre válido, un correo electrónico correcto y, si se desea, un mensaje. Al presionar **Enviar**, la consola muestra los datos ingresados y el formulario se reinicia.
+
+Ejemplo de salida en consola:
 
 ```bash
-ng generate --help
+Formulario enviado: { name: 'Juan Perez', email: 'juan.perez@example.com', message: 'Hola, quiero registrarme.' }
 ```
 
-## Building
+![alt text](image.png)
 
-To build the project run:
+## Capturas de pantalla
 
-```bash
-ng build
-```
+Agregar aquí las capturas solicitadas por la consigna:
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+- Formulario con errores de validación.
+![alt text](image-1.png)
 
-## Running unit tests
+## Créditos
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+- Estudiante: Luciano Buceta
+- Curso: Angular básico
+- Unidad: Módulo 1 - Unidad 2
 
-```bash
-ng test
-```
+## Fuentes y bibliografía
 
-## Running end-to-end tests
+- Documentación oficial de Angular: https://angular.dev/
+- Reactive Forms en Angular: https://angular.dev/guide/forms/reactive-forms
 
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
