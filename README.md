@@ -45,8 +45,6 @@ Formulario enviado: { name: 'Juan Perez', email: 'juan.perez@example.com', messa
 
 ## Capturas de pantalla
 
-Agregar aquí las capturas solicitadas por la consigna:
-
 - Formulario con errores de validación.
 ![alt text](image-1.png)
 
